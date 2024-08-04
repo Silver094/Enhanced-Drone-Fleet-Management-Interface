@@ -3,9 +3,6 @@ import "./App.css";
 import axios from "axios";
 
 import { useNavigate } from "react-router-dom";
-
-import Dashboard from "./components/Dashboard";
-
 function App() {
   const [username, SetUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -16,7 +13,7 @@ function App() {
     // Fetch data using Axios
     const data = {};
     axios
-      .get("http://localhost:8000/")
+      .get("http://localhost:5000/")
       .then((response) => {
         setdata(response.data);
       })
