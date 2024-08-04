@@ -13,7 +13,7 @@ function App() {
     // Fetch data using Axios
     const data = {};
     axios
-      .get("http://localhost:5000/")
+      .get("https://nodejs-backend-v3z9.onrender.com/")
       .then((response) => {
         setdata(response.data);
       })

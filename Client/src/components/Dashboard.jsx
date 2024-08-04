@@ -8,7 +8,7 @@ function Dashboard() {
   useEffect(() => {
     // Fetch data using Axios
     axios
-      .get("http://localhost:5000/dashboard")
+      .get("https://nodejs-backend-v3z9.onrender.com/dashboard")
       .then((response) => {
         setdata(response.data);
       })
