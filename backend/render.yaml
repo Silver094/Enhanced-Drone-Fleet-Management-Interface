@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: nodejs-backend
+    env: node
+    plan: free
+    buildCommand: docker build -t nodejs-backend .
+    startCommand: docker run -p 5000:5000 nodejs-backend
+    envVars:
+      - key: NODE_ENV
+        value: production
