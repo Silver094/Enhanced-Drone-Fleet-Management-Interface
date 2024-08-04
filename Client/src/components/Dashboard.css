@@ -1,0 +1,13 @@
+.cardComponent{
+
+        display: grid;
+        grid-template-columns: repeat(auto-fill);
+        gap: 16px;
+        padding: 32px;
+
+}
+h2{
+        margin: auto;
+        margin-left: 23px;
+        margin-top: 12px;
+}

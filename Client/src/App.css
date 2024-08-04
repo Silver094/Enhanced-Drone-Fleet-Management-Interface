@@ -1,0 +1,20 @@
+.App{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  padding-bottom: 2%;
+}
+.container-sm{
+  
+  background-color: rgb(210, 255, 165);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border: 1px solid rgb(0, 135, 25);
+  border-radius:1%;
+}

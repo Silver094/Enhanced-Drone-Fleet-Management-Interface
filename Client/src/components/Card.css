@@ -1,0 +1,8 @@
+.card {
+  width:auto;
+  cursor: "pointer";
+  margin: "1rem";
+  display: flex ;
+  flex-direction: row;
+
+}
