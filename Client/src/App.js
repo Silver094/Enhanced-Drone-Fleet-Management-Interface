@@ -11,7 +11,6 @@ function App() {
 
   useEffect(() => {
     // Fetch data using Axios
-    const data = {};
     axios
       .get("https://nodejs-backend-v3z9.onrender.com/")
       .then((response) => {
