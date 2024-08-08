@@ -4,21 +4,29 @@ This project is a web application for managing a fleet of drones. It has a backe
 
 ## Project Structure
 
-**
 ├── backend
-│   ├── Dockerfile
-│   ├── data.json
-│   ├── index.js
-├── client
-│   ├── public
-│   ├── src
-│   ├── Dockerfile
-│   ├── package.json
-│   ├── README.md
-├── docker-compose.yml
-└── README.md
-**
 
+│   ├── Dockerfile
+
+│   ├── data.json
+
+│   ├── index.js
+
+├── client
+
+│   ├── public
+
+│   ├── src
+
+│   ├── Dockerfile
+
+│   ├── package.json
+
+│   ├── README.md
+
+├── docker-compose.yml
+
+└── README.md
 
 ## Backend
 
